@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="4dp"
+    android:background="#E8E8E8"
+    tools:context=".ImDetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@color/colorPrimary">
+
+
+        <ImageView
+            android:id="@+id/iv_dt_image"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:background="@color/colorlightGreen"
+            android:padding="2dp"
+            android:src="@drawable/pic_01"
+            />
+
+        <TextView
+            android:id="@+id/tv_dt_title"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_toRightOf="@+id/iv_dt_image"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="8dp"
+            android:padding="1dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:text="谁特么买小米啊"
+            />
+
+        <Button
+            android:id="@+id/bt_dt_read"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/tv_dt_title"
+            android:layout_marginBottom="88dp"
+            android:text="查看详情"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/bottom_shape"
+            android:backgroundTint="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_dt_title"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="52dp"
+            android:layout_toRightOf="@+id/iv_dt_image"
+            android:text="上传时间:"
+            android:textColor="#FFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_dt_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/tv_dt_title"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="52dp"
+            android:text="2019-11-27"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_dt_time"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@+id/iv_dt_image"
+            android:text="点赞数:"
+            android:textColor="#FFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_dt_likenumb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/tv_dt_time"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="18dp"
+            android:text="666"
+            android:textColor="#000000"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="2dp"
+        android:layout_height="70dp"
+        android:background="@color/colorWhite">
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/iv_dt_head"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:padding="2dp"
+            android:src="@drawable/pic_01"
+            app:riv_border_color="@color/colorPrimary"
+            app:riv_border_width="2dp"
+            app:riv_oval="true"/>
+        <TextView
+            android:id="@+id/tv_dt_author"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@+id/iv_dt_head"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:text="上传者名字"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/colorWhite">
+        <TextView
+            android:id="@+id/tv_dt_intro"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:text="简介简介简介简介简介简介简介简介
+            简介简介简介简介简介简介简介简介
+            简介简介简介简介简介简介简介简介简介"
+            android:textStyle="italic"
+            android:textSize="16sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite">
+
+        <Button
+            android:id="@+id/bt_dt_download"
+            android:layout_width="160dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bottom_shape"
+            android:text="批量下载图片"
+            android:textColor="#FFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_like_switch"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="40dp"
+            android:src="@drawable/ic_unlike" />
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

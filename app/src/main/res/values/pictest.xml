@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="images">
+        <item>@drawable/pic_01</item>
+        <item>@drawable/pic_01</item>
+        <item>@drawable/pic_01</item>
+        <item>@drawable/pic_01</item>
+        <item>@drawable/pic_01</item>
+        <item>@drawable/pic_01</item>
+        <item>@drawable/pic_01</item>
+        <item>@drawable/pic_01</item>
+        <item>@drawable/pic_01</item>
+        <item>@drawable/pic_01</item>
+        <item>@drawable/pic_01</item>
+    </string-array>
+
+</resources>

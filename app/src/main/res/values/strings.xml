@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">E-PICACG分享你的图片</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_user_name">用户名</string>
+    <string name="nav_user_introduction">个性签名</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_search">搜索</string>
+    <string name="title_activity_signup">Sign up</string>
+    <string name="account_error">请检查输入的账号是否为邮箱或手机。</string>
+    <string name="register_error">账号已存在</string>
+    <string name="password_length_error">密码长度不能少于7位且不能包含空格</string>
+    <string name="border_top">border_top</string>
+    <string name="border_bottom">border_bottom</string>
+    <string name="image_url">image_url</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>

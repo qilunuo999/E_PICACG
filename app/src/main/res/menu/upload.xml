@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pic603.e_picacg.ImUploadActivity">
+    <item
+        android:id="@+id/action_uploadIm"
+        android:title="上传图片"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_addAlbum"
+        android:title="新增图库"
+        app:showAsAction="never" />
+
+</menu>
